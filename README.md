@@ -23,6 +23,34 @@ Avant de parler des façades du projet ,Nous parlerons des moyens de créer le p
 
 ## Les interfaces Et Structure Generale du projet : 
 
-- Gestion de Vente :
+### Gestion de Vente :
+ 
   - L’interface de Page d’accueil :
-    La page d’accueil contient quatre options principale : Produits(pour acheter les produits) ,Profile(pour modifier nom et mote de passe de User) ,Commande(liste des Commandes) ,Users(liste des Users).
+    - La page d’accueil contient quatre options principale : Produits(pour acheter les produits) ,Profile(pour modifier nom et mote de passe de User) ,Commande(liste des Commandes) ,Users(liste des Users).
+    
+  - L’interface de Login/Inscrire :
+    - Le client doit saisir le nom d’utilisateur et le mot de passe pour se connecter. Si le client saisie le bon mot de passe il sera ramené a la page d’accueil de notre projet sinon il retourn la page login . Si le client est un nouveau utilisateur , il doit inscrire dans page Iscrire (le nom et mote de passe doivent être saisi) .
+    
+  - L’interface de Modifier Profile :
+    - Pour modifier mot de passe(ou le nom), le mot de passe et le nom doivent être saisi. 
+
+  - L’interface de Liste des Produits :
+    - Dans cette page la liste des produits est affichée, et Il y a aussi la possibilité de rechercher par botton rechercher , et Il y a aussi la possibilité d'acheter par botton Acheter a panier.
+
+  - L’interface de Commande :
+    - Dans cette page web le client peut acheter leur produit, il selecte ligne dans la liste (page liste des produits) et select nombre de quantitie (entre 1 et 5) et clique le botton Save pour affecter la facture.
+
+  - L’interface de Page de Facture et FacturePDF:
+    - Cette page représente la facture acheté et il y a aussi imprimée sous format Pdf.
+    
+### Gestion de Stock : 
+
+- L’interface de Page d’accueil :
+  - La page d’accueil contient deux options principale : Produits et Approvisionnement .
+
+- L’interface de Produits Stocks et Rapport PDF :
+  - Dans cette page web, l’utilisateur peut effectuer tous les fonctionnements (annuler, ajouter, supprimer, rechercher, afficher) , ainsi imprimer liste des produits Stocks en PDF.
+  
+- L’interface de Produits Approvisionnement et Rapport PDF :
+  - Dans cette page web, l’utilisateur peut effectuer tous les fonctionnements (annuler, ajouter, supprimer, rechercher, afficher) , ainsi imprimer liste des produits Approvisionnement en PDF .
+
